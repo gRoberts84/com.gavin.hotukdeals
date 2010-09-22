@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">HotUKDeals</string>
+<string name="tab_hot">Hot</string>
+<string name="tab_new">New</string>
+<string name="tab_discussed">Discussed</string>
+<string name="tab_custom">Custom</string>
+<string name="ua_template">%s/%s Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10 ( .NET CLR 3.5.30729; .NET4.0C)</string>
+<string name="tab_hot_key">hot</string>
+<string name="tab_custom_key">custom</string>
+<string name="tab_new_key">new</string>
+<string name="tab_discussed_key">discussed</string>
+</resources>
