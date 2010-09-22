@@ -10,11 +10,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
 import android.widget.TabHost.TabSpec;
@@ -92,6 +95,24 @@ public class HotUKDeals extends Activity {
         setIndicator(this.getString(R.string.tab_custom)).
         setContent(R.id.tab_custom);
         tabHost.addTab(spec);
+    }
+    
+    public boolean onCreateOptionsMenu(Menu menu){
+    	menu.add(0,0,0,"Settings");
+    	menu.add(0,1,1,"Exit");
+    	return true;
+    }
+    
+    public boolean onOptionsItemSelected (MenuItem item){
+    	switch (item.getItemId()){
+    		case 0 :    			
+    			setContentView(R.layout.settings);    			
+    			return true;
+    		case 1 :
+    			this.finish();
+    			return true;
+    	}
+    	return false;
     }
     
     private void goDeal(Deal d)

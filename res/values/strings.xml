@@ -11,4 +11,57 @@
 <string name="tab_custom_key">custom</string>
 <string name="tab_new_key">new</string>
 <string name="tab_discussed_key">discussed</string>
+<string name="setting_forum">Forum</string>
+<string-array name="forums">
+	<item>All</item>
+	<item>Deals</item>
+	<item>Vouchers</item>
+	<item>Freebies</item>
+	<item>Competitions</item>
+	<item>Requests</item>
+	<item>For sale/trade</item>
+	<item>Misc</item>
+	<item>Feedback</item>
+</string-array>
+<string-array name="forum_values">
+	<item>all</item>
+	<item>deals</item>
+	<item>vouchers></item>
+	<item>freebies></item>
+	<item>competitions</item>
+	<item>deal-requests></item>
+	<item>for-sale-trade></item>
+	<item>misc</item>
+	<item>feedback></item>
+</string-array>
+<string-array name="categories">
+	<item>All</item>
+	<item>Clothing</item>
+	<item>Computers</item>
+	<item>Electricals</item>
+	<item>Entertainment</item>
+	<item>Finance</item>
+	<item>General deals</item>
+	<item>Groceries</item>
+	<item>Home</item>
+	<item>Kids</item>
+	<item>Mobiles</item>
+	<item>Nonsense</item>
+	<item>Travel</item>
+</string-array>
+<string-array name="category_values">
+	<item>all</item>
+	<item>clothing</item>
+	<item>computers</item>
+	<item>electricals</item>
+	<item>entertainment</item>
+	<item>finance</item>
+	<item>general-deals</item>
+	<item>groceries</item>
+	<item>home</item>
+	<item>kids</item>
+	<item>mobiles</item>
+	<item>nonsense</item>
+	<item>travel</item>
+</string-array>
 </resources>

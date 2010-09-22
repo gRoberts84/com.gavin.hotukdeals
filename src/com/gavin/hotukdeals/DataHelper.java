@@ -52,7 +52,7 @@ public class DataHelper {
 	public List<Deal> getResults(String apiKey, String forum, String category, boolean onlineOnly, String order, int page, boolean activeOnly, String search)
 	{
 		List<Deal> items = new ArrayList<Deal>();		
-		String uri = String.format("http://api.hotukdeals.com/rest_api/v2/?key=%s&output=json&forum=%s&category=%s&online_offline=%s&order=%s&page=%s&exclude_expired=%s&search=%s", 
+		String uri = String.format("http://api.hotukdeals.com/rest_api/v2/?key=%s&results_per_page=200&output=json&forum=%s&category=%s&online_offline=%s&order=%s&page=%s&exclude_expired=%s&search=%s", 
 				apiKey,
 				forum,
 				category,
